@@ -1,4 +1,8 @@
-# Python 3.11 recommended. Pinned to the legacy FaceMesh solutions API used by extract.py.
+# Python 3.11-3.12, CPU only. Avoid JAX/OpenCV resolver backtracking into NumPy 2.
 mediapipe==0.10.21
-numpy>=1.26,<2
-# OpenCV comes via mediapipe's opencv-contrib-python dependency.
+numpy==1.26.4
+opencv-contrib-python==4.11.0.86
+jax==0.4.35
+jaxlib==0.4.35
+Pillow>=10.4,<13
+jsonschema>=4.21,<5
