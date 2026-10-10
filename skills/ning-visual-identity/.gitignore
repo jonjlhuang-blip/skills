@@ -1,0 +1,15 @@
+data/
+output/
+.venv/
+__pycache__/
+*.onnx
+*.safetensors
+*.pt
+*.pth
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.npy
+*.npz
+!README.md
