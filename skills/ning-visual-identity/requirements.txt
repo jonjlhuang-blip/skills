@@ -1,0 +1,5 @@
+# Lightweight CPU-first dependencies; no PyTorch or large model downloads.
+mediapipe>=0.10.14,<0.11
+opencv-python>=4.8,<5
+numpy>=1.26,<3
+Pillow>=10,<12
